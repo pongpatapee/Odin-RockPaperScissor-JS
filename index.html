@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RockPaperSissor</title>
-    <script src="app.js"></script>
+    <title>RockPaperscissor</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+    </style>
 </head>
 <body>
-    
+    <header>
+        Rock Paper scissor
+    </header>
+    <div class="content">
+        <div class="message">
+            Ready! Go
+        </div>
+        <div class="display">
+            <div class="player-display">
+                <div class="player-choice">
+                    ?
+                </div>
+                <div class="player-score">
+                    Player: 0
+                </div>
+            </div>
+            <div class="computer-display">
+                <div class="computer-choice">
+                    ?
+                </div>
+                <div class="computer-score">
+                    Computer: 0
+                </div>
+            </div>
+        </div>
+        <div class="player-btns">
+            <button id="rock" class="player-btn">Rock</button>
+            <button id="paper" class="player-btn">Paper</button>
+            <button id="scissor" class="player-btn">scissor</button>
+        </div>
+    </div>
+
+    <footer>Copyright © 2022 Dan <a href="https://github.com/pongpatapee/Odin-RockPaperscissor-JS"><img src="images/github-logo.png" alt="GitHub" height="auto" width="20"></a></footer>
 </body>
 </html>

@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    /* font-family: font-family: 'Patrick Hand SC', cursive;'Coop Forged', Arial, Helvetica, sans-serif; */
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 48px;
+    /* background-color: #455d7a; */
+    background-image: url("images/background.jpg");
+    color: rgb(39, 39, 39);
+    gap: 10px;
+}
+
+
+header {
+    background-color: #233142;
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    font-weight: bold;
+    color: rgb(177, 177, 177);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.display {
+    display: flex;
+    gap: 35px;
+}
+
+.player-display, .computer-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.player-btns button {
+    background: none;
+    color: rgb(39, 39, 39);
+    border: 3px rgb(39, 39, 39) solid;
+    border-radius: 15%;
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+
+
